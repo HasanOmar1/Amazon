@@ -10,7 +10,6 @@ header{
     background-color: #131a22;
 }
 
-
 /* Navbar */
 
 .first-nav-bar{
@@ -23,9 +22,6 @@ header{
     width: 120px;
     height: 5vh;
     padding-top: 4px;
-    
-
-
 }
 
 .logo{
@@ -39,7 +35,6 @@ header{
     border: 1px solid white;
     cursor: pointer;
     border-radius: 3px;
-
 }
 
 /* deliver-to */
@@ -96,7 +91,6 @@ top: 24px;
     width: 100%;
     display: flex;
     border-radius: 5px;
-    
 }
 
 
@@ -127,10 +121,7 @@ top: 24px;
     border: none;
     outline: none;
     padding: 10px;
-    font-size: 0.85rem;
 }
-
-
 
 .search-icon{
     background-color: #febd69;
@@ -139,14 +130,16 @@ top: 24px;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-
-
 }
 .search-icon:hover{
     cursor: pointer;
     opacity: 0.9;
 }
 
+.search-icon:active ,
+.search-icon:focus{
+    outline: 3px solid orange;
+}
 
 
 /* Language section */
@@ -160,8 +153,6 @@ top: 24px;
 
 }
 
-
-
 .lang-img{
     display: flex;
     width: 5px;
@@ -174,21 +165,17 @@ top: 24px;
     font-size: 0.9rem;
     font-weight: 600;
     padding-left: 5px;
-
-    
 }
 
 .lang-container:hover{
     border: 1px solid white;
     cursor: pointer;
     border-radius: 3px;
-
 }
 
 .lang-img img{
     height: 20px;
     padding-left: 10px;
-    
 }
 
 .lang-arrow{
@@ -253,7 +240,6 @@ top: 24px;
     width: 100px;
     margin: 3px 0;
     align-items: center;
-
 }
 
 .cart-icon img{
@@ -264,7 +250,6 @@ top: 24px;
     padding-top: 20px;
     padding-left: 10px;
     font-weight: bold;
-
 }
 
 .cart:hover{
@@ -293,15 +278,15 @@ top: 24px;
 }
 
 .burger{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding-right: 5px;
+    padding-top: 2px;
 }
 
 .all-keyword:hover{
     cursor: pointer;
     border: 1px solid white;
     border-radius: 3px;
-
 }
 
 /* Today's Deal */
@@ -317,6 +302,9 @@ top: 24px;
     border: 1px solid white;
     cursor: pointer;
     border-radius: 3px;
+}
+.todays-deal:active{
+    opacity: 0.8;
 }
 
 /* Customer Service */
@@ -334,6 +322,9 @@ top: 24px;
     cursor: pointer;
     border-radius: 3px;
 }
+.customer-service:active{
+    opacity: 0.8;
+}
 
 /* Registry */
 
@@ -342,14 +333,15 @@ top: 24px;
     color: white;
     padding: 13px;
     font-size: 0.9rem;
-
-
 }
 
 .registry:hover{
     border: 1px solid white;
     cursor: pointer;
     border-radius: 3px;
+}
+.registry:active{
+    opacity: 0.8;
 }
 
 /* Gift Cards */
@@ -358,14 +350,15 @@ top: 24px;
     color: white;
     padding: 13px;
     font-size: 0.9rem;
-
-
 }
 
 .gift-cards:hover{
     border: 1px solid white;
     cursor: pointer;
     border-radius: 3px;
+}
+.gift-cards:active{
+    opacity: 0.8;
 }
 
 /* Sell */
@@ -374,11 +367,14 @@ top: 24px;
     color: white;
     padding: 13px;
     font-size: 0.9rem;
-
 }
 
 .sell:hover{
     border: 1px solid white;
     cursor: pointer;
     border-radius: 3px;
+}
+
+.sell:active{
+    opacity: 0.8;
 }
