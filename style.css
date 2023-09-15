@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Amazon Ember', sans-serif;
 }
 
 header{
@@ -310,12 +310,74 @@ top: 24px;
     color: white;
     padding: 13px;
     font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.todays-deal:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Customer Service */
+
+
+.customer-service{
+    color: white;
+    padding: 13px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.customer-service:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Registry */
+
+
+.registry{
+    color: white;
+    padding: 13px;
+    font-size: 0.9rem;
 
 
 }
 
-.todays-deal:hover{
+.registry:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Gift Cards */
+
+.gift-cards{
+    color: white;
+    padding: 13px;
+    font-size: 0.9rem;
+
+
+}
+
+.gift-cards:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Sell */
+
+.sell{
+    color: white;
+    padding: 13px;
+    font-size: 0.9rem;
+
+}
+
+.sell:hover{
     border: 1px solid white;
     cursor: pointer;
     border-radius: 3px;
