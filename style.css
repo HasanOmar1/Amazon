@@ -32,21 +32,28 @@ header{
     height: 45px;
     background: url('/assets/amazon-logo.png');
     margin-left: 5px;
+    padding-top: 52px;
 }
 
 .logo:hover{
     border: 1px solid white;
     cursor: pointer;
+    border-radius: 3px;
+
 }
 
 /* deliver-to */
 
 .gps-deliver-to{
     padding-left: 15px;
-    position: relative;
+    margin: 2px 0;
+    margin-top: 4px;
 }
 .gps-deliver-to:hover{
     border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+
 }
 
 .deliver-to{
@@ -145,13 +152,17 @@ top: 24px;
 
 .lang-container{
     display: flex;
+    width: 85px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    align-items: center;
+
 }
 
 
 
 .lang-img{
     display: flex;
-    padding: 25px;
     width: 5px;
     height: 5px;
     
@@ -160,13 +171,22 @@ top: 24px;
 #english{
     color: white;
     font-size: 0.9rem;
+    font-weight: 600;
     padding-left: 5px;
+
     
+}
+
+.lang-container:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+
 }
 
 .lang-img img{
     height: 20px;
-    padding-bottom: 2px;
+    padding-left: 10px;
     
 }
 
@@ -182,13 +202,15 @@ top: 24px;
 .sign-in{
     display: flex;
     color: white;
-    flex-direction: column;
-    padding-left: 50px;
     font-size: 0.75rem;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 2px;
 }
 
-.sign-in p:nth-child(1){
-    padding-top: 20px; 
+.sign-in p{
+    padding-left: 6px; 
+    padding-right: 6px;
 }
 
 .account{
@@ -198,6 +220,12 @@ top: 24px;
 
 .sign-in-arrow{
     font-size: 0.8rem;
+}
+
+.sign-in:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 
