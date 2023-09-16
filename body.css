@@ -93,7 +93,6 @@ main{
 /* Product info container */
 
 .product-info-container{
-    border: 1px solid blue;
     grid-column: span 2;
 }
 
@@ -339,4 +338,10 @@ span[tooltip]::after {
     padding-top: 10px;
     font-size: 14px;
     font-weight: 500;
+}
+
+/* Last grid */
+
+.last-grid{
+    border: 1px solid green;
 }
