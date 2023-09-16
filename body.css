@@ -18,6 +18,7 @@
     color: #c45500;
 }
 
+
 .bold{
     font-weight: 600;
 }
@@ -287,7 +288,7 @@ span[tooltip]::after {
 }
 
 .styling-option p:nth-child(1){
-    border: 1px solid orange;
+    border: 2px solid orange;
     padding: 12px;
     background-color: transparent;
     margin-right: 10px;
@@ -347,12 +348,13 @@ span[tooltip]::after {
 /* Last grid */
 
 .last-grid{
-    border: 1px solid green;
     padding-left: 20px;
 }
 
 .price-tag{
     margin-top: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
     padding-bottom: 10px;
 }
 
@@ -361,6 +363,7 @@ span[tooltip]::after {
     font-size: 14px;
     width: 24ch;
     line-height: 20px;
+    padding-left: 15px;
 }
 
 .stock{
@@ -369,6 +372,8 @@ span[tooltip]::after {
     font-size: 18px;
     line-height: 24px;
     padding-bottom: 10px;
+    padding-left: 15px;
+
 }
 
 .quantity{
@@ -377,11 +382,12 @@ span[tooltip]::after {
     border-radius: 8px;
     background-color:#F0F2F2 ;
     padding: 2px;
+    margin-left: 15px;
 }
 
 .quantity:hover{
-    opacity: 0.8;
     cursor: pointer;
+    background-color: #dddddd;
 }
 
 .quantity:focus{
@@ -390,6 +396,8 @@ span[tooltip]::after {
 
 .buy{
     padding-top: 20px;
+    padding-left: 15px;
+
 }
 
 .buy button:nth-child(1){
@@ -401,13 +409,14 @@ span[tooltip]::after {
     cursor: pointer;
     font-size: 14px;
     margin-bottom: 10px;
+    
 
 }
 
 .buy button:nth-child(2){
 
     display: block;
-    padding: 7px 71px;
+    padding: 7px 70px;
     border: none;
     background-color: #ffa41c;
     border-radius: 40px;
@@ -425,7 +434,9 @@ span[tooltip]::after {
     display: grid;
     grid-template-columns: 70px 1fr;
     grid-template-rows: repeat(6,25px);
-    height: 160px;
+    height: 140px;
+    padding-left: 15px;
+
 }
 .payment-grid p{
     color: #565959;
@@ -433,6 +444,140 @@ span[tooltip]::after {
 
 .payment-grid p , .payment-grid a{
     font-size: 12px;
-    margin-top: -1p;
+}
+
+.add-gift{
+    font-size: 14px;
+    font-weight: 400;
+    width: 24ch;
+    line-height: 1.4;
+    padding-left: 15px;
+
+}
+
+.add-to-list{
+    width: 240px;
+    padding: 6px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 15px;
+
+}
+.add-to-list:hover{
+    cursor: pointer;
+    background-color:#f3f3f3;
+}
+
+.grid-outline{
+    outline: 2px solid #dddddd;
+    margin-left: -5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.new-from{
+    margin-top: 30px;
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-left: -5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 50px ;
+}
+
+.other-sellers{
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+
+}
+
+.other-sellers p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.other-pricing{
+    display: grid;
+    grid-template-columns: 100px 160px;
+    grid-template-rows: 30px 30px 20px;
+}
+
+.other-pricing p{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.other-pricing p:nth-child(1){
+    padding-right: 30px;
+    font-size: 1rem;
+}
+
+.other-pricing p:nth-child(2){
+
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 8px;
+    margin-left: 60px;
+    padding: 5px;
+
+}
+
+.other-pricing p:nth-child(2):hover{
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.other-pricing p:nth-child(3){
+width: 20ch;
+padding-right: 25px;
+color: #565959;
+font-size: 11px;
+
+}
+
+.other-pricing p:nth-child(5){
+width: 23ch;
+padding-right: 25px;
+margin-bottom: 60px;
+
+}
+
+.seller-name{
+    padding-left: 5px;
+
+}
+
+.seller-name:hover{
+    color: #c45500;
+}
+
+.selling{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.sell-now{
+    margin-top: 5px;
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    width: 120px;
+    padding: 5px 10px;
+    font-size: 13px;
+
+}
+
+.sell-now:hover{
+    cursor: pointer;
+    background-color: #D5D9D9;
 }
 
