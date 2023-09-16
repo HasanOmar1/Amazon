@@ -691,3 +691,48 @@ section{
 .other-products-price-2 span{
     position: absolute;
 }
+
+/* Total price */
+
+.total-price{
+    margin-left: 45%;
+    margin-top: -220px;
+}
+
+.total-price p{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.total-price-button{
+    background-color: #ffd814;
+    border-radius: 20px;
+    padding: 5px 100px;
+    margin-left: -85px;
+    font-size: 14px;
+}
+
+.total-price-button:hover{
+    cursor: pointer;
+    opacity: 0.85;
+
+}
+
+
+.ship-info{
+    margin-top: 40px;
+    margin-left: -80px;
+    width: 42ch;
+    font-size: 12px;
+}
+
+.details-link-cont{
+    position: relative;
+
+}
+.details-link-cont a{
+    position: absolute;
+    top: -8px;
+}
+
+
