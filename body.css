@@ -28,18 +28,28 @@
 main{
     height: 200vh;
 }
+
+.directions{
+    margin-top: 10px;
+    font-size: 0.75rem;
+    color: #565959;
+    margin-left: 12%;
+}
+
+.directions:hover{
+    cursor: pointer;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: 100px  repeat(5,1fr);
     height: 100vh;
     margin: 0 20vh;
     width: 80vw;
-}
-
-.back-to-result{
-    margin-top: 6px;
-    font-size: 0.75rem;
-    color: grey;
 }
 
 /* product img */
