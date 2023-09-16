@@ -144,6 +144,31 @@
     padding: 4px;
 }
 
+p[tooltip]{
+    position: relative;
+}
+
+p[tooltip]::after {
+    content: attr(tooltip);
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    bottom: 100%;
+    margin-bottom: 10px;
+    left: -130px;
+    line-height: 16px;
+    width: 50ch;
+    display: none;
+  }
+
+  p[tooltip]:hover::after {
+    display: block;
+    z-index: 99;
+  }
+
 .overall-pick {
     padding-left: 15px;
     font-size: 0.9rem;
@@ -194,3 +219,27 @@
     cursor: pointer;
     opacity: 1;
 }
+
+span[tooltip]{
+    position: relative;
+}
+
+span[tooltip]::after {
+    content: attr(tooltip);
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    top: 100%;
+    left: -200px;
+    width: 50ch;
+    display: none;
+  }
+
+  span[tooltip]:hover::after {
+    display: block;
+    z-index: 99;
+  }
