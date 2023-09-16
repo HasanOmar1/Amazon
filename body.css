@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Doesnt change */
+/* Does'nt change */
 
 .links{
     color: rgb(0, 113, 133);
@@ -26,7 +26,7 @@
 
 /* Main Section */
 main{
-    height: 200vh;
+    height: 130vh;
 }
 
 .directions{
@@ -594,3 +594,100 @@ margin-bottom: 60px;
     background-color: #D5D9D9;
 }
 
+/* Section 2 */
+
+section{
+    height: 100vh;
+    margin: 0 12%;
+}
+
+.bought-together-container{
+    height: 370px;
+
+}
+
+.bought-together-container h2{
+    color: #333;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 10px;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+/* First Product */
+
+.bg-container{
+    background-color: #f7f8f8;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    display: flex;
+}
+
+.bg-container img{
+    width: 90%;
+    padding-top: 50px;
+    padding-left: 30px;
+    height: 80%;
+}
+
+.img-checkbox{
+    position: absolute;
+    left: 95%;
+    margin-top: 10px ;
+    
+}
+
+.item-info{
+    font-size: 14px;
+    margin-top: 10px;
+    width: 25ch;
+    padding-bottom: 13px;
+}
+
+.plus h2{
+    font-size: 28px;
+    margin-left: 265px;
+    margin-top: -200px;
+}
+
+.other-products-price{
+    margin-top: 150px;
+    position: relative;
+}
+
+.other-products-price p{
+    display: inline-block;
+
+}
+.other-products-price span{
+    position: absolute;
+}
+
+/* Second product */
+
+.second-product{
+    margin-left: 300px;
+    margin-top: -280px;
+}
+
+.second-product img{
+    object-fit: cover;
+}
+
+.item-info-2 a{
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 25ch;
+    margin-left: 20%;
+}
+
+.other-products-price-2{
+    margin-left: 280px;
+    position: relative
+}
+.other-products-price-2 span{
+    position: absolute;
+}
