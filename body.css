@@ -328,7 +328,10 @@ span[tooltip]::after {
     grid-template-rows: repeat(5,30px);
     height: 170px;
     margin-top: 20px;
+    font-size: 14px;
 }
+
+
 
 /* About the item */
 
