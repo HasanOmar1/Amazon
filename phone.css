@@ -1,0 +1,78 @@
+
+/* ipad */
+
+@media (max-width:768px){
+
+
+
+
+header{
+    width: 200vw;
+}
+.grid-container{
+
+    width: 200vw ;
+}
+
+.product-img-container{
+    grid-column:2/3;
+}
+
+.bought-together-container{
+
+    width: 200vw;
+
+}
+
+.carousel{
+    width: 100vw;
+}
+
+}
+
+/* PHONE */
+
+
+
+@media (max-width:500px){
+
+*{
+    font-size: 11px;
+    max-width:50vh;
+}
+
+.first-nav-bar{
+    width: 50vw;
+}
+
+.first-section{
+    width: 50vw;
+}
+
+.grid-container{
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product-img-container{
+    height: 40vh;
+}
+
+.product-img{
+    position: static;
+    margin-left: 20px;
+    width: 400px;
+}
+.title-container h2{
+    margin-top: -325px;
+    font-size: 1.2rem;
+    width: 50ch;
+}
+
+#hide{
+    display: none;
+}
+
+}
