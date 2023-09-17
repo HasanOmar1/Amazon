@@ -82,7 +82,7 @@ top: 24px;
     
 }
 
-.search-bar:hover{
+.search-bar:focus{
     outline: 3px solid orange;
 }
 
