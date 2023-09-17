@@ -147,15 +147,26 @@
       <div class="grid-container">
 
         <div class="small-images-container sticky" id="hide">
-          <img class="small-img-1 small-img" src="./assets/product-img.jpg" >
-          <img class="small-img-2 small-img" src="./assets/folded-product.jpg" >
-          <img class="small-img-3 small-img" src="./assets/long-product.jpg" >
+          <img class="small-img-1" id="img-1" src="./assets/product-img.jpg" onmouseover="hover1(this.src)" onmouseout="mouseout1()" >
+          <img class="small-img-2" id="img-2" src="./assets/folded-product.jpg" onmouseover="hover1(this.src)" onmouseout="mouseout1()" >
+          <img class="small-img-3" id="img-3" src="./assets/long-product.jpg" onmouseover="hover1(this.src)" onmouseout="mouseout1()">
         </div>
+
+        <script>
+          function hover1(received){
+            document.getElementById('img-4').src = received
+
+          }
+
+          function mouseout1() {
+            document.getElementById('img-4').src = 'assets/product-img.jpg'
+          }
+        </script>
 
 
         <div class="product-img-container">
         <div class="product-img">
-        <img  src="assets/product-img.jpg" class="big-img">
+        <img  src="assets/product-img.jpg" id="img-4" onmouseover="hover1(this.src)" onmouseout="mouseout1()">
         <img class="img-share-button" src="assets/share-img-button.png" alt="">
 
         <p id="hide">Roll over image to zoom in</p>
