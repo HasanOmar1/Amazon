@@ -70,4 +70,23 @@ header{
     display: none;
 }
 
+.cart{
+    /* padding-top: 70px; */
+    position: absolute;
+    top: 50px;
+    left: 80vw;
+
+}
+.search-bar-container{
+position: absolute; 
+    left: 25vw;
+    width: 250px;
+}
+
+.gps-deliver-to{
+    position: absolute;
+    top: 40px;
+    left: 30vw;
+
+}
 }
