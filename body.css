@@ -759,6 +759,7 @@ margin-bottom: 60px;
 
 .carousel{
     height: 452px;
+    margin-right: 9%;
 }
 
 
@@ -779,20 +780,25 @@ margin-bottom: 60px;
 
 .items{
     position: relative;
-    height: 430px;
+    height: 550px;
 }
 
 .first-item a,
-.second-item a{
+.second-item a,
+.third-item a,
+.fourth-item a,
+.fifth-item a{
     position: absolute;
-    top: 230px;
+    top: 240px;
     font-size: 14px;
     width: 20ch;
 }
 
 .first-item i,
-.second-item i{
-    margin-top: 300px;
+.second-item i,
+.fourth-item i,
+.fifth-item i{
+    margin-top: 310px;
 }
 
 .underline-p:hover{
@@ -800,3 +806,7 @@ margin-bottom: 60px;
     cursor: pointer;
 }
 
+
+.third-item i{
+    margin-top: 110px;
+}
