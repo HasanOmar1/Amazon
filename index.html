@@ -9,6 +9,9 @@
       crossorigin="anonymous"
     ></script>
     <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
 
 
     <title>
@@ -136,7 +139,9 @@
             Stitched Anti-Fray Edges,
              X-Large 900x420x4mm</h2>
              <a href="#" class="links">Visit the HyperX Store</a>
-             <p><span style="font-size: 0.9rem;padding-top: 3px;">4.8</span> <i class="fa-solid fa-star" style="color: orange;padding-left: 5px;"></i>
+             <p>
+              <span style="font-size: 0.9rem;padding-top: 3px;">4.8</span> 
+              <i class="fa-solid fa-star" style="color: orange;padding-left: 5px;"></i>
               <i class="fa-solid fa-star" style="color: orange;"></i>
               <i class="fa-solid fa-star" style="color: orange"></i>
               <i class="fa-solid fa-star" style="color: orange;"></i>
@@ -353,8 +358,8 @@
 
     </main>
 
-    <section>
-    <hr>
+    <section class="first-section">
+    <hr style="opacity: 0.5;">
       <div class="bought-together-container">
         <h2>Frequently bought together</h2>
         <div class="bg-container">
@@ -396,20 +401,102 @@
        <div class="total-price">
         <p>Total price: <span style="font-size: 18px;">$134.99</span></p>
         <span class="total-price-button">Add both to Cart</span>
+
         <div style="display: flex;" class="ship-info">
           <i class="fa-solid fa-circle-info" style="color: #0661fe; font-size: 1.2rem;cursor:default;"></i>
          <p style="padding-left: 9px;">
           Some of these items ship sooner than the others.
         </p>
         </div>
+
         <div class="details-link-cont">
-          <a href="#" class="links" style="margin-left: -53px;font-size: 12px;"">
-            show details</a>
+          <a href="#" class="links" style="margin-left: -53px;font-size: 12px;">
+          show details</a>
         </div>
        
        </div>
       
       </div>
+
+        <div style="margin-top: 20px;opacity: 0.5;"><hr></div>
+    </section>
+
+    <section class="second-section">
+
+      <div class="page-number">
+      <h2 style="color: #333;font-size: 21px;">Goes well with</h2>
+      <p>Page 1 of 4 </p>
+      </div>
+      
+      <div class="carousel" data-flickity='{ "wrapAround": true }'>
+
+        <!-- Item-1 -->
+
+        <div class="first-item items">
+          <div class="carousel-cell" style="background-image: url(assets/keyboard-rgb-product.jpg);">
+            <a href="#" class="links">
+              HyperX Alloy Origins 60 -
+               Mechanical Gaming Keyboard,
+               Mechanical Gaming Keyboard,
+               Ultra Compact 60% Form Factor,
+                Double Shot PBT...</a>
+              <i class="fa-solid fa-star" style="color: orange;"></i>
+              <i class="fa-solid fa-star" style="color: orange;"></i>
+              <i class="fa-solid fa-star" style="color: orange"></i>
+              <i class="fa-solid fa-star" style="color: orange;"></i>
+              <i class="fa fa-star-half-o" aria-hidden="true"
+               style="color: orange;margin-left: -5px;padding-right:5px ;"></i>
+              <a href="#" class="links" style="text-decoration: none;font-size: 12px;margin-top: 105px;">5,470</a>
+
+                <div class="item-1-container" style="display: flex;">
+                <p class="amazon-choice" style="margin-top: 5px;">
+                  <span style="color: white;display: inline-block;">Amazon's</span>
+                  <span style="color: #F69931;padding-left: 5px;"> Choice</span> </p>
+                  <p style="margin-top: 7px;padding-left: 3px;font-size: 14px;">in pc</p>
+                </div>
+                <p style="font-size: 12px;padding-top: 5px;padding-bottom: 5px;color: grey;">gaming keyboards</p>
+                <p class="underline-p" style="color: gray;padding-top: 5px;font-size: 14px;">19 offers from $50.96</p>
+            </div>
+        </div>
+        
+
+          <!-- Item-2 -->
+
+        <div class="second-item items">
+          <div class="carousel-cell" style="background-image: url(assets/mousepad.product-xl.jpg);">
+            <a href="#" class="links">
+              SteelSeries QcK Gaming Mouse Pad -
+               XL Stitched Edge Cloth -
+              SteelSeries QcK Gaming Mouse Pad -
+               XL Stitched Edge Cloth... -</a>
+             <i class="fa-solid fa-star" style="color: orange;"></i>
+             <i class="fa-solid fa-star" style="color: orange;"></i>
+             <i class="fa-solid fa-star" style="color: orange"></i>
+             <i class="fa-solid fa-star" style="color: orange;"></i>
+             <i class="fa fa-star-half-o" aria-hidden="true"
+              style="color: orange;margin-left: -5px;padding-right:5px ;"></i>
+             <a href="#" class="links" style="text-decoration: none;font-size: 12px;margin-top: 105px;">5,791</a>
+               <p class="underline-p" style="color: gray;padding-top: 5px;font-size: 14px;">3 offers from $38.99</p>
+
+
+
+
+
+
+          </div>
+        </div>
+        
+        <!-- Item-3 -->
+
+        <div class="carousel-cell" style="background-image: url(assets/small-keyboard.jpg);"></div>
+        <div class="carousel-cell" style="background-image: url(assets/item.jpg);"></div>
+        <div class="carousel-cell" style="background-image: url(assets/headphones.jpg);"></div>
+        <div class="carousel-cell" style="background-image: url(assets/mouse-img.jpg);"></div>
+        <div class="carousel-cell" style="background-image: url(assets/small-keyboard-2.jpg);"></div>
+      </div>
+
+
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 
     </section>

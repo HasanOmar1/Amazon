@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* Does'nt change */
@@ -374,7 +375,7 @@ span[tooltip]::after {
 .delivery-arrival{
     padding-top: 2px;
     font-size: 14px;
-    width: 24ch;
+    width: 26ch;
     line-height: 20px;
     padding-left: 15px;
 }
@@ -594,10 +595,10 @@ margin-bottom: 60px;
     background-color: #D5D9D9;
 }
 
-/* Section 2 */
+/* First Section  */
 
-section{
-    height: 100vh;
+.first-section{
+    height: 43vh;
     margin: 0 12%;
 }
 
@@ -735,4 +736,67 @@ section{
     top: -8px;
 }
 
+
+/* Second Section */
+
+.second-section{
+    height: 60vh;
+    margin: 0 12%;
+}
+
+.page-number{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.page-number p{
+    font-size: 14px;
+    margin-left: 83%;
+    color: gray;
+}
+
+/* carousel */
+
+.carousel{
+    height: 452px;
+}
+
+
+.carousel-cell{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.carousel-cell::before{
+    content: '';
+    display: block;
+}
+
+.items{
+    position: relative;
+    height: 430px;
+}
+
+.first-item a,
+.second-item a{
+    position: absolute;
+    top: 230px;
+    font-size: 14px;
+    width: 20ch;
+}
+
+.first-item i,
+.second-item i{
+    margin-top: 300px;
+}
+
+.underline-p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
