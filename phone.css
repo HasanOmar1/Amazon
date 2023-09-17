@@ -3,15 +3,16 @@
 
 @media (max-width:768px){
 
-
-
+*{
+    max-width: 150vw;
+}
 
 header{
-    width: 200vw;
+    width: 140vw;
 }
 .grid-container{
-
-    width: 200vw ;
+    margin: 0 0;
+    width: 170vw ;
 }
 
 .product-img-container{
@@ -30,7 +31,8 @@ header{
 
 }
 
-/* PHONE */
+
+/* PHONE (pixel 5) */
 
 
 
@@ -38,19 +40,12 @@ header{
 
 *{
     font-size: 11px;
-    max-width:50vh;
+    max-width:60vh;
 }
 
-.first-nav-bar{
-    width: 50vw;
-}
-
-.first-section{
-    width: 50vw;
-}
 
 .grid-container{
-    margin: 0 0;
+    margin: 0 -10px;
     display: flex;
     flex-direction: column;
 
