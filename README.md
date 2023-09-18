@@ -12,7 +12,7 @@ I tried using hover effect and it worked fine but Amazon's site is not using the
 
 I also had difficulty making the hamburger menu so I just copied it out of Udemy.
 
-The most difficult thing was creating the navbar , especially the logo since I couldn't find one , so I took a screen shot of it and used it.
+The most difficult thing was creating the navbar .
 
 I also had difficulty making the website responsive but I think the result is fine.
 
